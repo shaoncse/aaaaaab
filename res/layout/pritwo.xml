@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/ic">
+
+    <Button
+        android:id="@+id/i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="INFO" 
+        android:background="#63DF11"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/i"
+        android:text="TextView" 
+          android:textColor="#0000ff"
+        android:textSize="20sp"/>
+
+      <Button
+          android:id="@+id/c"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/l"
+          android:layout_marginTop="34dp"
+          android:layout_toLeftOf="@+id/t"
+          android:background="#63DF11"
+          android:text="ADDS"
+          android:textStyle="bold|italic" />
+
+      <Button
+          android:id="@+id/f"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/i"
+          android:layout_marginTop="32dp"
+          android:layout_toLeftOf="@+id/t"
+          android:background="#63DF11"
+          android:text="DEPT"
+          android:textStyle="bold|italic" />
+
+      <Button
+          android:id="@+id/l"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/f"
+          android:layout_marginTop="30dp"
+          android:layout_toLeftOf="@+id/t"
+          android:background="#63DF11"
+          android:text="LINK"
+          android:textStyle="bold|italic" />
+
+      <Button
+          android:id="@+id/map"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_marginBottom="54dp"
+          android:layout_toLeftOf="@+id/t"
+          android:background="#63DF11"
+          android:text="MAP"
+          android:textStyle="bold|italic" />
+
+</RelativeLayout>

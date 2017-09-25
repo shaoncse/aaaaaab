@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/s" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="108dp"
+        android:layout_height="114dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/sss" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:layout_weight="0.52"
+        android:text="Saon Karmaker\r\n  Department of CSE\r\n  email:shaon.bsmrstu@gmail.com\r\n  fb :shaon.karmaker"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+      android:textStyle="bold|italic"  />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="35dp"
+        android:text="\t\t\tTHANK   YOU"
+          android:textColor="#fff"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
